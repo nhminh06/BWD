@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="main.css" />
 </head>
 <body>
+
   <!-- Header -->
   <header class="header">
     <div class="container">
@@ -20,16 +21,15 @@
     </div>
   </header>
 
-  <!-- Hero / Slider -->
+  <!-- Hero -->
   <section class="hero">
- <img src="dia-diem-du-lich-viet-nam-cover.webp" class="hero-img" />
-
-  <div class="hero-content">
-    <h2>Khám phá thế giới cùng BeeTravel</h2>
-    <p>Chuyến đi mơ ước chỉ cách bạn một cú click!</p>
-    <a href="#" class="btn">Xem tour</a>
-  </div>
-</section>
+    <img src="img/dia-diem-du-lich-viet-nam-cover.webp" class="hero-img" alt="Hero banner"/>
+    <div class="hero-content">
+      <h2>Khám phá thế giới cùng BeeTravel</h2>
+      <p>Chuyến đi mơ ước chỉ cách bạn một cú click!</p>
+      <a href="#" class="btn">Xem tour</a>
+    </div>
+  </section>
 
   <!-- Giới thiệu -->
   <section class="about">
@@ -45,21 +45,107 @@
       <h2>Tour nổi bật</h2>
       <div class="tour-grid">
         <div class="tour-card">
-          <img src="image1.png" alt="Tour 1" />
+          <img src="img/image1.png" alt="Tour 1" />
           <h3>Du lịch Đà Lạt</h3>
           <p>3 ngày 2 đêm - chỉ từ 2.990.000đ</p>
         </div>
         <div class="tour-card">
-          <img src="image2.png" alt="Tour 2" />
+          <img src="img/image2.png" alt="Tour 2" />
           <h3>Khám phá Phú Quốc</h3>
           <p>4 ngày 3 đêm - chỉ từ 3.990.000đ</p>
         </div>
         <div class="tour-card">
-          <img src="image3.png" alt="Tour 3" />
+          <img src="img/image3.png" alt="Tour 3" />
           <h3>Hà Giang hùng vĩ</h3>
           <p>3 ngày 2 đêm - chỉ từ 3.500.000đ</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Dịch vụ -->
+  <section class="services">
+    <div class="container">
+      <h2>Dịch vụ của chúng tôi</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Đặt tour nhanh</h3>
+          <p>Chỉ vài cú click, bạn đã có chuyến đi hoàn hảo.</p>
+        </div>
+        <div class="service-card">
+          <h3>Hỗ trợ 24/7</h3>
+          <p>Luôn sẵn sàng lắng nghe và tư vấn.</p>
+        </div>
+        <div class="service-card">
+          <h3>Giá cả minh bạch</h3>
+          <p>Không phí ẩn, không phát sinh bất ngờ.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Điểm đến phổ biến -->
+  <section class="destinations">
+    <div class="container">
+      <h2>Điểm đến phổ biến</h2>
+      <div class="destination-grid">
+        <img src="img/image4.png" alt="Hà Nội" />
+        <img src="img/image5.png" alt="TP.HCM" />
+        <img src="img/image6.png" alt="Huế" />
+        <img src="img/image7.png" alt="Sapa" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Hướng dẫn viên -->
+  <section class="guides">
+    <div class="container">
+      <h2>Hướng dẫn viên của chúng tôi</h2>
+      <div class="guide-grid">
+        <div class="guide-card">
+          <img src="img/avata.png" alt="Hướng dẫn viên 1" />
+          <h3>Nguyễn Văn A</h3>
+          <p>10 năm kinh nghiệm tour nội địa.</p>
+        </div>
+        <div class="guide-card">
+          <img src="img/avata.png" alt="Hướng dẫn viên 2" />
+          <h3>Trần Thị B</h3>
+          <p>Thành thạo tiếng Anh & Trung.</p>
+        </div>
+        <div class="guide-card">
+          <img src="img/avata.png" alt="Hướng dẫn viên 1" />
+          <h3>Nguyễn Văn A</h3>
+          <p>10 năm kinh nghiệm tour nội địa.</p>
+        </div>
+        <div class="guide-card">
+          <img src="img/avata.png" alt="Hướng dẫn viên 2" />
+          <h3>Trần Thị B</h3>
+          <p>Thành thạo tiếng Anh & Trung.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cảm nhận khách hàng -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>Khách hàng nói gì?</h2>
+      <div class="testimonial-grid">
+        <blockquote>"Tour rất chuyên nghiệp và tuyệt vời!" - <strong>Mai Anh</strong></blockquote>
+        <blockquote>"Tôi sẽ quay lại đặt tour lần nữa!" - <strong>Minh Khoa</strong></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Đăng ký nhận tin -->
+  <section class="subscribe">
+    <div class="container">
+      <h2>Đăng ký nhận tin</h2>
+      <p>Nhận thông tin khuyến mãi và tour mới nhất từ BeeTravel.</p>
+      <form class="subscribe-form">
+        <input type="email" placeholder="Nhập email của bạn" required />
+        <button type="submit">Đăng ký</button>
+      </form>
     </div>
   </section>
 
@@ -69,5 +155,6 @@
       <p>&copy; 2025 BeeTravel. All rights reserved.</p>
     </div>
   </footer>
+
 </body>
 </html>
